@@ -22,6 +22,8 @@ Here below are all the sites for which I have set up public analytics:
 |8.|[pietroppeter.github.io/p5nim](https://pietroppeter.github.io/p5nim)|[plausible.io/pietroppeter.github.io%2Fp5nim](https://plausible.io/pietroppeter.github.io%2Fp5nim)|[github.com/pietroppeter/p5nim](https://github.com/pietroppeter/p5nim)|
 |9.|[pietroppeter.github.io/wordle-it](https://pietroppeter.github.io/wordle-it)|[plausible.io/pietroppeter.github.io%2Fwordle-it](https://plausible.io/pietroppeter.github.io%2Fwordle-it)|[github.com/pietroppeter/wordle-it](https://github.com/pietroppeter/wordle-it)|
 |10.|[par-le.github.io/gioco](https://par-le.github.io/gioco)|[plausible.io/par-le.github.io](https://plausible.io/par-le.github.io)|[github.com/par-le/gioco](https://github.com/par-le/gioco)|
+|11.|[py4ai.com](https://py4ai.com)|[plausible.io/py4ai.com](https://plausible.io/py4ai.com)|[github.com/pietroppeter/py4ai](https://github.com/pietroppeter/py4ai)|
+|12.|[pietroppeter.github.io/blog](https://pietroppeter.github.io/blog)|[plausible.io/pietroppeter.github.io%2Fblog](https://plausible.io/pietroppeter.github.io%2Fblog)|[github.com/pietroppeter/blog](https://github.com/pietroppeter/blog)|
 
 note that on `wordle-it` website statistics are tracked randomly once every N pageviews (N currently 40).
 
@@ -45,6 +47,8 @@ let data = [
   ("pietroppeter.github.io/wordle-it", "", ""),
   # not sure why I need this special case for plausible url (maybe some plausible misconfiguration):
   ("par-le.github.io/gioco", "plausible.io/par-le.github.io", ""),
+  ("py4ai.com", "", "github.com/pietroppeter/py4ai"),
+  ("pietroppeter.github.io/blog", "", ""),
 ]
 
 var result = """
